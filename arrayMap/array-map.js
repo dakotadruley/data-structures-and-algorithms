@@ -6,11 +6,11 @@
 // And test it with jest
 
 const map = (array, func) => {
-  for(let i = 0; i <= array.length; i++)
-    newArray = func[array.length];
-  return newArray;
+  for(let i = 0; i <= array.length; i++) {
+  return newArray = func(array.length);
 };
 
 module.exports = { map };
 
-// I don't even know where to start or how to move forward 
+// func(array[i])
+// func[array[i]]
